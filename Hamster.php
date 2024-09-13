@@ -10,7 +10,7 @@ class Hamster extends Animal  {
         }
 
         public function apresentarHamster() {
-            echo "// HAMSTER // \n nome: {$this->nome} \n Raça: {$this->raca} \n QTD Patas: {$this->qtd_patas} \n Cor: {$this->cor} \n Peso: {$this->peso}kg \n Tamanho: {$this->tamanho} \n ";
+            echo "// HAMSTER // \n Nome: {$this->nome} \n Raça: {$this->raca} \n QTD Patas: {$this->qtd_patas} \n Cor: {$this->cor} \n Peso: {$this->peso}kg \n Tamanho: {$this->tamanho} \n ";
         }
 
         

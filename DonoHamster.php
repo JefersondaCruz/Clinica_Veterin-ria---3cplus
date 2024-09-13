@@ -1,7 +1,7 @@
 <?php
 
 
-    class Humano2  {
+    class DonoHamster  {
         public $nome;
         public $idade;
         public $endereco;
@@ -15,14 +15,10 @@
             $this->contato = $contato;
         }
 
-        public function apresentarHUM2() {
-            echo "\n  // DONO // \n nome: {$this->nome} \n Idade: {$this->idade} \n Endereço: {$this->endereco} \n contato: {$this->contato}";
+        public function apresentarHUM() {
+            echo "\n  // DONO // \n Nome: {$this->nome} \n Idade: {$this->idade} anos \n Endereço: {$this->endereco} \n contato: {$this->contato} \n ";
         }
         
     }
 
     
-
-
-
-    $Humano3 = new Humano("jucelino das tintas", 50, "Rua nossas dores, 147", "42998344782");

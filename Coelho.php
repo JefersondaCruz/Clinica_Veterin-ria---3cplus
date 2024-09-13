@@ -16,6 +16,6 @@
         
 
         public function falar() {
-            return "Thumbs thumbs thumbs   \n " ;
+            return "Canto: Thumbs thumbs thumbs   \n " ;
         }
     }
